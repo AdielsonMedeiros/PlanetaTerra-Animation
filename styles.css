@@ -13,7 +13,7 @@ body{
 .planeta{
     width: 20em;
     height: 20em;
-    background: url(./img/Terra\ \(1\).jpg);
+    background: url(./img/terra.png);
     box-shadow:
         inset -2em -2em 2em #000,
         -0.5em -0.5em 1em #1b27ce;
@@ -25,7 +25,7 @@ body{
 }
 
 .lua{
-    background: url(./img/mercury.jpg);
+    background: url(./img/lua.jpg);
     box-shadow:
         inset -1.5em -1.5em 1.5em #000,
         -0.2em -0.2em 0.5em #ccc;
@@ -37,7 +37,7 @@ body{
     transform: translateY(-50%);
     animation:
         rotate 5s linear infinite,
-        orbit 20s infinite ease-in-out;
+        orbit 10s infinite ease-in-out;
     z-index: 1;
     
     
